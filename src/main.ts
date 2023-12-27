@@ -4,7 +4,6 @@ import canvas from "./canvas";
 import {
   ambientLight,
   directionalLight,
-  doorLight,
   ghost1,
   ghost2,
   ghost3,
@@ -12,8 +11,6 @@ import {
 } from "./lights";
 import { tick } from "./timer";
 import floor from "./meshes/floor";
-import axesHelper from "./helpers/axesHelper";
-import { doorLightHelper, hemisphereLightHelper } from "./helpers/lightHelpers";
 import house from "./meshes/house";
 import graves from "./meshes/graves";
 import fog from "./fog";

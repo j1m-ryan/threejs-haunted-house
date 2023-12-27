@@ -1,6 +1,6 @@
 import * as THREE from "three";
 
-import { grassMaterial, woodMaterial } from "../shared/materials";
+import { grassMaterial } from "../shared/materials";
 
 const geometry = new THREE.PlaneGeometry(20, 20, 20);
 
