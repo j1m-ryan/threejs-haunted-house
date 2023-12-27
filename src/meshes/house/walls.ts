@@ -13,6 +13,7 @@ const wallsGeometry = new THREE.BoxGeometry(
 
 const walls = new THREE.Mesh(wallsGeometry, wallsMaterial);
 walls.position.y = wallsHeight / 2;
+walls.castShadow = true;
 
 export default walls;
 export { wallsHeight, wallsDepth };

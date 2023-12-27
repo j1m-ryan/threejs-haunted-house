@@ -4,6 +4,7 @@ const gui = new GUI({
   title: "ThreeJS Starter Bun",
 });
 
+gui.hide();
 const cubeFolder = gui.addFolder("cube");
 const cameraFolder = gui.addFolder("camera");
 const lightsFolder = gui.addFolder("lights");

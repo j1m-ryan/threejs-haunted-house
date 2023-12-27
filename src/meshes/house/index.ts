@@ -30,4 +30,7 @@ house.add(bush2);
 house.add(bush3);
 house.add(bush4);
 
+house.castShadow = true;
+house.receiveShadow = true;
+
 export default house;
